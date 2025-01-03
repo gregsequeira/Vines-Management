@@ -1,2 +1,3 @@
 # Vines-Management
-App for management of youth soccer team
+
+# App for management of youth soccer team
