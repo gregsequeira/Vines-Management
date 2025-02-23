@@ -1,0 +1,78 @@
+/* Styles for the Player Details Card */
+.card {
+  border: none;
+  text-align: center; /* Center-align text */
+  background-color: #5c5470; /* Dark background color for card */
+  color: white; /* Text color for card */
+  border-radius: 10px; /* Rounded corners */
+  width: 100%; /* Full width */
+  max-width: 350px; /* Maximum width for larger cards */
+  margin: 0 auto; /* Center the card */
+}
+
+.player-photo {
+  border-radius: 10px; /* Rounded corners for image */
+  max-width: 50%; /* Reduce width */
+  height: auto;
+  margin: 10px auto; /* Space around image and center horizontally */
+  display: block; /* Center the image */
+}
+
+.card-body {
+  padding: 10px;
+  background-color: #5c5470; /* Matching background color for card body */
+  color: white; /* Matching text color for card body */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.card-title {
+  font-size: 20px; /* Increase font size for title */
+  margin-bottom: 5px; /* Space below title */
+}
+
+.card-text {
+  margin-bottom: 15px; /* Space between text elements */
+  font-size: 16px; /* Font size for text */
+}
+
+/* Yellow labels when editing */
+.form-group label,
+.modal-body .form-group label {
+  color: #ffc93c !important; /* Yellow color for labels */
+}
+
+/* Specific style for the "Save Changes" button */
+.save-changes-button {
+  background-color: #ffc93c !important; /* Yellow color for Save Changes button */
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.save-changes-button:hover {
+  background-color: #ffba36 !important; /* Darker shade of yellow for hover effect */
+}
+
+.editLabel {
+  color: #ffc93c;
+  font-size: 14px;
+}
+
+.photo-input {
+  margin-left: -30px;
+}
+
+/* Styles for scrolling */
+.modal-body-scroll {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.editForm .form-control {
+  max-height: 30px;
+  font-size: 14px;
+}
+
+.photo-input {
+  margin-left: -40px;
+  font-size: 18px;
+}

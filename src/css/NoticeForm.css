@@ -1,0 +1,105 @@
+.notice-form-container {
+  max-width: 800px; /* Increase the container width */
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #fff; /* Background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+}
+
+.notice-form-container h2,
+.notice-form-container label[for="title"],
+.notice-form-container label[for="content"] {
+  margin-bottom: 20px;
+  color: #333; /* Text color */
+  text-align: center; /* Center the title and content headers */
+}
+
+.notice-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements */
+}
+
+.notice-form-container input[type="text"],
+.notice-form-container textarea,
+.notice-form-container input[type="file"] {
+  width: 100%; /* Full width */
+  max-width: 700px; /* Increase width of input and textarea */
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.notice-form-container input[type="text"] {
+  width: 100%;
+  max-width: 700px; /* Increase width of title input field */
+}
+
+.notice-form-container textarea {
+  height: 500px; /* Increase content block size */
+  resize: vertical;
+}
+
+.notice-form-container .editor-wrapper {
+  width: 100%;
+  max-width: 700px; /* Increase width of editor block */
+  margin-bottom: 20px; /* Add gap before Choose File button */
+  border: 2px solid #ccc; /* Add more visible border */
+  border-radius: 5px; /* Add border radius */
+  padding: 5px; /* Add padding */
+}
+
+.notice-form-container input[type="file"] {
+  display: none; /* Hide the actual file input */
+}
+
+.notice-form-container .custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ffc93c;
+  color: black;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.notice-form-container .custom-file-upload:hover {
+  background-color: #ffba36;
+}
+
+.notice-form-container button,
+.notice-form-container .view-notice-list-button {
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 15px 30px; /* Increase padding for wider buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none; /* Remove underline from Link */
+  display: inline-block; /* Ensure link is block-level */
+  text-align: center; /* Center text */
+  margin-top: 10px; /* Add margin to the top */
+}
+
+.notice-form-container button:hover,
+.notice-form-container .view-notice-list-button:hover {
+  background-color: #ffba36;
+}
+
+.notice-form-container .media-preview {
+  margin-top: 15px;
+}
+
+.notice-form-container .media-preview img,
+.notice-form-container .media-preview video {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

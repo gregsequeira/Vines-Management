@@ -1,0 +1,75 @@
+/* Styles for the navigation bar */
+nav {
+  background: linear-gradient(to top, #ffc93c, #393e46, black);
+  padding: 5px 10px; /* Adjusted padding to ensure better alignment */
+  text-align: center;
+  position: fixed; /* Make the navbar fixed at the top */
+  top: 0;
+  width: 100%; /* Ensure it spans the width of the page */
+  z-index: 1000; /* Ensure it is above other content */
+  display: flex;
+  align-items: center; /* Vertically center items in the navbar */
+}
+
+/* Styles for the navigation list */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensures alignment of items in the center */
+  flex-grow: 1; /* Allow the ul to take up remaining space */
+}
+
+/* Styles for individual list items */
+nav ul li {
+  margin: 0 10px;
+  display: flex; /* Ensures that flex properties are inherited */
+  align-items: center; /* Ensures alignment of items within each li */
+}
+
+/* Combine styles for anchor tags and button elements */
+nav ul li a,
+nav ul li .logout-button {
+  color: black; /* Text color */
+  background-color: #fdffab; /* Button color */
+  padding: 20px 20px; /* Adjusted padding to ensure consistent size */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline for links */
+  font-size: 1em; /* Adjusted font size for better alignment */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  display: inline-block; /* Ensures consistent display behavior */
+  cursor: pointer; /* Changes cursor to pointer for button */
+  border: none; /* Removes default button border */
+}
+
+/* Combine hover styles for anchor tags and button elements */
+nav ul li a:hover,
+nav ul li .logout-button:hover {
+  background-color: #ffba36; /* Slightly darker color on hover */
+}
+
+/* Additional styles for the "Pending" button */
+nav ul li .pending-button {
+  color: #ffc93c; /* Yellow font color */
+  background-color: grey; /* Grey background color */
+  padding: 10px 20px; /* Adjusted padding to ensure consistent size */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline for links */
+  font-size: 1em; /* Adjusted font size for better alignment */
+  display: inline-block; /* Ensures consistent display behavior */
+}
+
+.welcome-message {
+  font-weight: bold;
+  color: #ffc93c;
+  position: absolute; /* Positioning absolute to place it at the end */
+  right: 10px; /* Adjust as needed */
+}
+
+/* Styles for the navigation image */
+.nav-image {
+  height: 100px; /* Adjust height as needed */
+  margin-right: -100px; /* Space between image and nav items */
+}

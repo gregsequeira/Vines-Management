@@ -1,0 +1,68 @@
+.squad-management-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.5); /* Darker grey background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.squad-management-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffc107; /* Yellow color */
+}
+
+.age-group-squad {
+  margin-bottom: 60px; /* Increased margin-bottom for more gap */
+}
+
+.age-group-squad h4 {
+  text-align: center; /* Center the text */
+  margin-bottom: 20px;
+  color: #ffc107; /* Yellow color */
+  font-size: 1.5em; /* Adjusting font size for section headings */
+}
+
+.player-list-table {
+  width: 100%; /* Fluid width */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.player-list-table th,
+.player-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center the text in table cells */
+}
+
+.player-list-table th {
+  background-color: #333; /* Black background */
+  color: #ffc107; /* White font */
+}
+
+.player-list-table th,
+.player-list-table td {
+  width: auto; /* Adjust the width to prevent wrapping */
+}
+
+.player-list-table tr:nth-child(even) {
+  background-color: #707070; /* Darker grey */
+}
+
+.player-list-table tr:nth-child(odd) {
+  background-color: #505050; /* Darker grey */
+}
+
+.manager-name {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.form-label {
+  margin-top: 5px;
+  color: #ffc107;
+}

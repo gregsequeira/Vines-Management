@@ -1,0 +1,102 @@
+.manage-venues-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.manage-venues-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.manage-venues-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.manage-venues-container label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.manage-venues-container input[type="text"] {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.manage-venues-container button {
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px; /* Add margin for spacing */
+}
+
+.manage-venues-container button:hover {
+  background-color: #ffba36;
+}
+
+.venues-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.venues-table th,
+.venues-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.venues-table th {
+  background-color: #333; /* Black background */
+  color: #fff; /* White font */
+}
+
+.venues-table th:first-child,
+.venues-table th:nth-child(2) {
+  text-align: left; /* Left align for Venue Name and Location */
+  width: 35%; /* Adjusted width */
+}
+
+.venues-table th:last-child {
+  text-align: center; /* Center align for Actions */
+  width: 30%; /* Adjusted width */
+}
+
+.venues-table tr:nth-child(even) {
+  background-color: #b0b0b0; /* Darker grey */
+}
+
+.venues-table tr:nth-child(odd) {
+  background-color: #808080; /* Darker grey */
+}
+
+.venues-table td {
+  vertical-align: middle; /* Vertically center the text */
+  text-align: left; /* Left align text by default */
+}
+
+.venues-table td:last-child {
+  text-align: center; /* Center align for action buttons */
+}
+
+.venues-table td button {
+  margin: 0 5px;
+}

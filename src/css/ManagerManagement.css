@@ -1,0 +1,194 @@
+.manager-management-container {
+  padding: 20px;
+  background-color: rgba(
+    245,
+    245,
+    245,
+    0.5
+  ); /* Light background for contrast */
+  border-radius: 10px;
+}
+
+h2 {
+  color: #393e46; /* Match your theme's heading color */
+  font-family: "Arial", sans-serif;
+  text-align: center; /* Center the heading */
+}
+
+.create-manager-button-container {
+  display: flex;
+  justify-content: center; /* Center the button */
+  margin-bottom: 20px;
+}
+
+.create-manager-button {
+  background-color: #ffc93c; /* Match your theme's button color */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-manager-button:hover {
+  background-color: #ffba36; /* Slightly darker shade for hover */
+}
+
+.manager-management-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  table-layout: fixed; /* Fix table layout for better control */
+}
+
+.manager-management-table th,
+.manager-management-table td {
+  padding: 10px;
+  text-align: center; /* Center the text */
+  border-bottom: 1px solid #ddd;
+  font-family: "Arial", sans-serif;
+}
+
+.manager-management-table th {
+  background-color: #393e46; /* Dark background for table headers */
+  color: #ffba36;
+}
+
+.manager-management-table tr:nth-child(even) {
+  background-color: #999999;
+}
+
+.manager-management-table tr:nth-child(odd) {
+  background-color: #4d4c4c;
+}
+
+.manager-management-table tr:hover {
+  background-color: #ddd;
+}
+
+.manager-management-table .actions-column {
+  width: 250px; /* Adjust width of actions column */
+}
+
+.clickable {
+  cursor: pointer;
+  color: #ffc93c;
+  text-decoration: none;
+}
+
+.clickable:hover {
+  color: #ffba36;
+}
+a.manager-management-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.create-manager-button-container {
+  margin-bottom: 20px;
+}
+
+.create-manager-button {
+  background-color: #ffc93c;
+  border-color: #ffba36;
+  color: #393e46;
+}
+
+.manager-management-table {
+  margin-top: 20px;
+}
+
+.actions-column {
+  text-align: center;
+}
+
+.actions-column button {
+  margin: 0 5px;
+}
+
+.manager-details {
+  margin-top: 20px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.checkbox-grid .form-check {
+  margin-bottom: 10px;
+}
+
+.save-changes-button {
+  margin-top: 20px;
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-family: "Arial", sans-serif;
+  border-radius: 5px;
+}
+
+.save-changes-button {
+  background-color: #ffc93c; /* Match your theme's button color */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.save-changes-button:hover {
+  background-color: #ffba36; /* Slightly darker shade for hover */
+}
+
+.manager-details {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  font-family: "Arial", sans-serif;
+}
+
+.manager-details .card-body {
+  background-color: #393e46; /* Dark background for card body */
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.manager-details .card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.manager-details .card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.checkbox-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form-check {
+  flex: 2 2 23%; /* Two items per row */
+}
+
+.text-danger {
+  color: #ff6b6b;
+}

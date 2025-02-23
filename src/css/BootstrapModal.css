@@ -1,0 +1,92 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  left: 50%;
+  top: 20px; /* Set top to 30px */
+  transform: translateX(-50%); /* Center horizontally */
+  width: auto;
+  max-width: 500px; /* Reduce max-width for a smaller modal */
+  outline: 0;
+}
+
+.modal-dialog {
+  position: relative;
+  margin: 0;
+  pointer-events: none;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #393e46; /* Match your theme */
+  color: white; /* Ensure text is visible */
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px; /* Updated border-radius */
+  outline: 0;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.75rem 1rem; /* Reduce padding for header */
+  border-bottom: none; /* Remove border */
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0.75rem 1rem; /* Reduce padding for body */
+  margin-bottom: -10px;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem; /* Reduce padding for footer */
+  border-top: none; /* Remove border */
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-title {
+  color: #ffc93c; /* Match your heading colors */
+  margin-bottom: -10px;
+}
+
+.modal-button {
+  margin: 10px; /* Add margin around buttons */
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: #ffba36;
+}
+
+.modal-buttons-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure buttons stay in one row */
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Gap between buttons */
+  margin-top: 5px; /* Reduce space between text and buttons */
+}

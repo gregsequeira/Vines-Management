@@ -1,0 +1,93 @@
+/* Styles for the Player Management container */
+.player-management {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styles for the heading */
+.player-management h1 {
+  margin-bottom: 20px;
+}
+
+/* Styles for the filters */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the search input */
+.search-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for the age group filter */
+.age-group-filter {
+  width: 100%;
+  max-width: 200px;
+  max-height: 48px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for the table */
+.player-management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Styles for table headers and cells */
+.player-management th,
+.player-management td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center; /* Center text in table cells */
+}
+
+.player-management th {
+  background-color: #2a2438; /* Header background color */
+  color: white; /* Ensure text color is readable */
+}
+
+.player-management td {
+  background-color: #5c5470; /* Row background color */
+  color: white; /* Ensure text color is readable */
+}
+
+/* Styles for table rows on hover */
+.player-management tr:hover td {
+  color: #ffc93c; /* Change font color on hover */
+  background-color: #5c5470; /* Ensure row background color remains the same */
+  cursor: pointer;
+}
+
+/* Styles for the modal buttons */
+.player-management .modal-footer button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.player-management .modal-footer button:hover {
+  background-color: #ffba36;
+}

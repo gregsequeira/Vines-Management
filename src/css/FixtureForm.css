@@ -1,0 +1,64 @@
+.fixture-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #fff; /* Background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+}
+
+.fixture-form-container h2 {
+  margin-bottom: 20px;
+  color: #333; /* Text color */
+}
+
+.fixture-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements */
+}
+
+.fixture-form-container label {
+  width: 100%;
+  text-align: left; /* Keep labels aligned to the left */
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+.fixture-form-container input[type="text"],
+.fixture-form-container input[type="date"],
+.fixture-form-container input[type="time"],
+.fixture-form-container input[type="number"],
+.fixture-form-container textarea,
+.fixture-form-container select {
+  width: 100%; /* Full width */
+  max-width: 500px; /* Increase width of input, textarea, and select */
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.fixture-form-container button,
+.fixture-form-container .view-fixture-list-button {
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none; /* Remove underline from Link */
+  display: inline-block; /* Ensure link is block-level */
+  text-align: center; /* Center text */
+  margin-top: 10px; /* Add margin to the top */
+}
+
+.fixture-form-container button:hover,
+.fixture-form-container .view-fixture-list-button:hover {
+  background-color: #ffba36;
+}

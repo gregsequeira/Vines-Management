@@ -1,0 +1,114 @@
+.registration-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #ffdd00; /* Themed yellow color */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffd700; /* Darker shade of yellow */
+}
+
+.modal-button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  background-color: #ffdd00; /* Themed yellow color */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-button:hover {
+  background-color: #ffd700; /* Darker shade of yellow */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* File Input Styling */
+input[type="file"] {
+  color: black; /* Change "No file chosen" text color to black */
+  display: inline-block;
+  padding: 5px;
+  margin-left: 10px; /* Add margin to the left */
+  border: none;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: black; /* Change button background to black */
+  color: yellow; /* Change button font color to yellow */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+  margin-top: 20px; /* Add margin above the submit button */
+}

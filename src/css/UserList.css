@@ -1,0 +1,58 @@
+.user-list {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.user-list h1 {
+  margin-bottom: 20px;
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-list th,
+.user-list td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center; /* Center text in table cells */
+}
+
+.user-list th {
+  background-color: #2a2438; /* Header background color */
+  color: white; /* Ensure text color is readable */
+}
+
+.user-list td {
+  background-color: #5c5470; /* Row background color */
+  color: white; /* Ensure text color is readable */
+}
+
+.user-list tr:hover td {
+  color: #ffc93c; /* Change font color on hover */
+  background-color: #5c5470; /* Ensure row background color remains the same */
+  cursor: pointer;
+}
+
+.user-list button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-list button:hover {
+  background-color: #ffba36;
+}

@@ -1,0 +1,85 @@
+.result-form-container {
+  width: 100%; /* Fluid width */
+  max-width: 600px; /* Maximum width matches FixtureForm */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333; /* Dark grey background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+  color: #fff; /* White text color */
+}
+
+.result-form-container h2 {
+  margin-bottom: 20px;
+  color: #ffc107; /* Yellow text color for heading */
+}
+
+.result-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff; /* White text color */
+}
+
+.result-form-container label {
+  display: block;
+  margin-bottom: 5px; /* Less space between label and <p> */
+  font-weight: bold;
+  text-align: center; /* Center the label text */
+  color: #fff; /* White text color */
+}
+
+.result-form-container p {
+  width: 300px; /* Standard width for <p> */
+  margin: 5px 0 20px; /* Extra bottom margin for separation */
+  padding: 10px;
+  background-color: #555; /* Slightly lighter grey for contrast */
+  border: 1px solid #ddd; /* Border */
+  border-radius: 5px; /* Rounded edges */
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold text */
+}
+
+.result-form-container input[type="number"] {
+  width: 80px; /* Increase width */
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 20px; /* Extra bottom margin for separation */
+  text-align: center;
+  border-radius: 5px; /* Rounded edges for input */
+}
+
+.result-form-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffc107; /* Yellow background color */
+  color: #333; /* Dark text color */
+  border: none;
+  border-radius: 5px; /* Rounded edges */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.result-form-container button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.result-form-container .view-results-button,
+.result-form-container .view-fixture-list-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ffc107; /* Yellow background color */
+  color: #333; /* Dark text color */
+  border: none;
+  border-radius: 5px; /* Rounded edges */
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.result-form-container .view-results-button:hover,
+.result-form-container .view-fixture-list-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}

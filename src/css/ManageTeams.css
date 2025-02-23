@@ -1,0 +1,101 @@
+.manage-teams-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.manage-teams-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.manage-teams-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.manage-teams-container label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.manage-teams-container input[type="text"] {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.manage-teams-container button {
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px; /* Add margin for spacing */
+}
+
+.manage-teams-container button:hover {
+  background-color: #ffba36;
+}
+
+.teams-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.teams-table th,
+.teams-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.teams-table th {
+  background-color: #333; /* Black background */
+  color: #fff; /* White font */
+}
+
+.teams-table th:first-child {
+  text-align: left; /* Left align for Team Name */
+  width: 65%; /* Adjusted width for Team Name column */
+}
+
+.teams-table th:last-child {
+  text-align: center; /* Center align for Actions */
+  width: 35%; /* Adjusted width for Actions column */
+}
+
+.teams-table tr:nth-child(even) {
+  background-color: #b0b0b0; /* Darker grey */
+}
+
+.teams-table tr:nth-child(odd) {
+  background-color: #808080; /* Darker grey */
+}
+
+.teams-table td {
+  vertical-align: middle; /* Vertically center the text */
+  text-align: left; /* Left align text by default */
+}
+
+.teams-table td button {
+  margin: 0 5px;
+}
+
+.teams-table td:last-child {
+  text-align: center; /* Center align for action buttons */
+}

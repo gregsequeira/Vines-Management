@@ -1,0 +1,102 @@
+.manage-competitions-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.manage-competitions-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.manage-competitions-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.manage-competitions-container label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.manage-competitions-container input[type="text"] {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.manage-competitions-container button {
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px; /* Add margin for spacing */
+}
+
+.manage-competitions-container button:hover {
+  background-color: #ffba36;
+}
+
+.competitions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.competitions-table th,
+.competitions-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.competitions-table th {
+  background-color: #333; /* Black background */
+  color: #fff; /* White font */
+}
+
+.competitions-table th:first-child,
+.competitions-table th:nth-child(2) {
+  text-align: left; /* Left align for Competition Type and Competition Name */
+  width: 35%; /* Adjusted width */
+}
+
+.competitions-table th:last-child {
+  text-align: center; /* Center align for Actions */
+  width: 30%; /* Adjusted width */
+}
+
+.competitions-table tr:nth-child(even) {
+  background-color: #b0b0b0; /* Darker grey */
+}
+
+.competitions-table tr:nth-child(odd) {
+  background-color: #808080; /* Darker grey */
+}
+
+.competitions-table td {
+  vertical-align: middle; /* Vertically center the text */
+  text-align: left; /* Left align text by default */
+}
+
+.competitions-table td:last-child {
+  text-align: center; /* Center align for action buttons */
+}
+
+.competitions-table td button {
+  margin: 0 5px;
+}

@@ -1,0 +1,126 @@
+.user-fixtures-and-results-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #a9a9a9; /* Even darker grey background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-fixtures-and-results-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffc107; /* Yellow color */
+}
+
+.user-fixtures-section,
+.user-results-section {
+  margin-bottom: 60px; /* Increased margin-bottom for more gap */
+}
+
+.user-fixtures-section h3,
+.user-results-section h3 {
+  text-align: center; /* Center the text */
+  margin-bottom: 20px;
+  color: #ffc107; /* Yellow color */
+  font-size: 1.5em; /* Adjusting font size for section headings */
+}
+
+.user-fixtures-container {
+  width: 100%; /* Fluid width */
+  max-width: 1440px; /* Maximum width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+}
+
+.user-fixtures-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.2em; /* Make month headings a bit smaller */
+  cursor: pointer; /* Make it clickable */
+}
+
+.user-fixtures-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-fixtures-table th,
+.user-fixtures-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center the text in table cells */
+}
+
+.user-fixtures-table th {
+  background-color: #333; /* Black background */
+  color: #fff; /* White font */
+}
+
+.user-fixtures-table th,
+.user-fixtures-table td {
+  width: auto; /* Adjust the width to prevent wrapping */
+}
+
+.user-fixtures-table tr:nth-child(even) {
+  background-color: #707070; /* Darker grey */
+}
+
+.user-fixtures-table tr:nth-child(odd) {
+  background-color: #505050; /* Darker grey */
+}
+
+.user-results-container {
+  width: 100%; /* Fluid width */
+  max-width: 1440px; /* Maximum width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+}
+
+.user-results-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.2em; /* Make month headings a bit smaller */
+  cursor: pointer; /* Make it clickable */
+}
+
+.user-results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-results-table th,
+.user-results-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center the text in table cells */
+}
+
+.user-results-table th {
+  background-color: #333; /* Black background */
+  color: #fff; /* White font */
+}
+
+.user-results-table th,
+.user-results-table td {
+  width: auto; /* Adjust the width to prevent wrapping */
+}
+
+.user-results-table tr:nth-child(even) {
+  background-color: #707070; /* Darker grey */
+}
+
+.user-results-table tr:nth-child(odd) {
+  background-color: #505050; /* Darker grey */
+}

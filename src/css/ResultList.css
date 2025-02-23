@@ -1,0 +1,85 @@
+.result-list-container {
+  width: 100%; /* Fluid width */
+  max-width: 1440px; /* Maximum width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+}
+
+.result-list-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters select,
+.filters input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  text-align: center;
+}
+
+.month-box {
+  margin-bottom: 20px; /* Gap between months */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light grey background for each month */
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.month-heading {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.2em; /* Make month headings a bit smaller */
+  cursor: pointer; /* Make it clickable */
+}
+
+.month-heading .triangle {
+  font-size: 0.8em; /* Adjust triangle size */
+}
+
+.result-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.result-list-table th,
+.result-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center the text in table cells */
+}
+
+.result-list-table th {
+  background-color: #333; /* Black background */
+  color: #ffc107 !important; /* Yellow font color with !important to override */
+}
+
+.result-list-table th,
+.result-list-table td {
+  width: auto; /* Adjust the width to prevent wrapping */
+}
+
+.result-list-table tr:nth-child(even) {
+  background-color: #b0b0b0; /* Darker grey */
+}
+
+.result-list-table tr:nth-child(odd) {
+  background-color: #808080; /* Darker grey */
+}
+
+.result-list-table td button {
+  margin: 0 5px;
+  display: inline-block;
+  min-width: 70px; /* Ensure buttons have a minimum width */
+}

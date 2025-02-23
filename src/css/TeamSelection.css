@@ -1,0 +1,171 @@
+.team-selection-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-selection-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffc107;
+}
+
+.player-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.player-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-text {
+  color: white;
+}
+
+.player-select-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Adjust as needed */
+  margin-left: 10px;
+}
+
+.player-select-checkbox input[type="checkbox"] {
+  display: none; /* Hide the default checkbox */
+}
+
+.player-select-checkbox label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.player-select-checkbox label::before {
+  content: "";
+  display: inline-block;
+  width: 100px; /* Adjust as needed for size */
+  height: 24px; /* Adjust as needed for size */
+  border: 2px solid #ccc;
+  border-radius: 4px; /* Adjust for rounded corners if needed */
+  margin-right: 10px;
+  background-color: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.player-select-checkbox label::after {
+  content: attr(data-status); /* Use data-status attribute for content */
+  color: black; /* Change font color to black */
+  position: absolute;
+  left: 25px; /* Adjust to position text inside the checkbox */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px; /* Adjust font size as needed */
+}
+
+.player-select-checkbox input[type="checkbox"]:checked + label::before {
+  background-color: #ffc107; /* Yellow color */
+  border-color: #ffc93c;
+}
+
+.position-container {
+  margin-bottom: 40px; /* Add spacing between position containers */
+}
+
+.player-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fixture-details-table {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto 20px; /* Center the table and add bottom margin */
+  border-collapse: separate; /* Use separate border model */
+  border-spacing: 0; /* Remove spacing between cells */
+  border: 1px solid #ddd; /* Add border to entire table */
+  border-radius: 10px; /* Rounded corners for the entire table */
+  text-align: center; /* Center the text */
+}
+
+.fixture-details-table th,
+.fixture-details-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.fixture-details-table th {
+  background-color: #000; /* Yellow color */
+  color: #ffc107; /* Black text for contrast */
+}
+
+/* Apply border-radius to table corners */
+.fixture-details-table th:first-child,
+.fixture-details-table td:first-child {
+  border-top-left-radius: 10px;
+}
+
+.fixture-details-table th:last-child,
+.fixture-details-table td:last-child {
+  border-top-right-radius: 10px;
+}
+
+.fixture-details-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.fixture-details-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+.fixture-details-table td {
+  background-color: #707070;
+}
+
+.success-button {
+  align-self: center;
+}
+
+.confirm-team-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.player-select-checkbox {
+  position: relative;
+}
+
+.player-select-checkbox input[type="checkbox"].unavailable {
+  cursor: not-allowed; /* Show not-allowed cursor */
+}
+
+.player-select-checkbox input[type="checkbox"].unavailable::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f50555; /* Red background for unavailable players */
+  opacity: 0.5; /* Adjust opacity as needed */
+  z-index: -1;
+  border-radius: 3px; /* Adjust border radius to match your checkbox style */
+}

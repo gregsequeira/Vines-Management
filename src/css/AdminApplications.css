@@ -1,0 +1,135 @@
+.admin-applications-container {
+  width: 100%; /* Fluid width */
+  max-width: 1440px; /* Maximum width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+}
+
+.admin-applications-container h2 {
+  margin-bottom: 10px; /* Reduced margin */
+  color: #333;
+}
+
+.applications-table,
+.registrations-table {
+  margin-bottom: 30px;
+}
+
+.applications-table table,
+.registrations-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.applications-table th,
+.registrations-table th,
+.applications-table td,
+.registrations-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center the text in table cells */
+}
+
+.applications-table th,
+.registrations-table th {
+  background-color: #333; /* Black background */
+  color: #ffc107 !important; /* Yellow font color with !important to override */
+}
+
+.applications-table td,
+.registrations-table td {
+  width: auto; /* Adjust the width to prevent wrapping */
+}
+
+.applications-table tr:nth-child(even),
+.registrations-table tr:nth-child(even) {
+  background-color: #b0b0b0; /* Darker grey */
+}
+
+.applications-table tr:nth-child(odd),
+.registrations-table tr:nth-child(odd) {
+  background-color: #808080; /* Darker grey */
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: black; /* Black text color */
+  background-color: #ffc93c; /* Yellow background color */
+  min-width: 70px; /* Ensure buttons have a minimum width */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.selected-application {
+  border-top: 1px solid #ddd;
+  padding-top: 10px; /* Reduced padding */
+  background-color: #f8f9fa; /* Light grey background for the selected application */
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.selected-application p {
+  margin: 3px 0; /* Reduced margin between lines */
+  color: #333;
+}
+
+.selected-application p strong {
+  color: #000;
+}
+
+.selected-application-modal {
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.selected-application-content {
+  padding: 10px; /* Reduced padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.action-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #ffc93c; /* Yellow background color */
+  color: black; /* Black text color */
+  border: none;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #e6b800; /* Slightly darker yellow */
+}
+
+.selected-application-content p {
+  margin: 5px 0;
+}
+
+.admin-applications-container th,
+.admin-applications-container td,
+.admin-applications-container tr {
+  cursor: pointer;
+}
+
+.admin-applications-container tr:hover {
+  color: #ffc107;
+  background-color: #333;
+}

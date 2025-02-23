@@ -1,0 +1,88 @@
+.login-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-page form div {
+  margin-bottom: 5px; /* Reduced margin-bottom to minimize space between fields */
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Ensure elements align to the start */
+}
+
+.login-page label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2px;
+  color: #ffc93c;
+}
+
+.login-page input {
+  padding: 8px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Ensure input fields take up full width of their parent */
+  box-sizing: border-box;
+  height: 40px; /* Set a consistent height for input fields */
+}
+
+.login-page button {
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-page button:hover {
+  background-color: #ffba36;
+}
+
+.forgot-password-link {
+  margin-top: 20px;
+}
+
+.forgot-password-link a {
+  color: #ffc93c;
+  text-decoration: none;
+}
+
+.forgot-password-link a:hover {
+  text-decoration: underline;
+}
+
+.usernameError-message {
+  color: red;
+  font-size: 0.875em;
+
+  margin-bottom: 10px; /* Margin at the bottom to avoid overlapping */
+  text-align: left; /* Align error message to the left */
+  width: 100%; /* Ensure error messages take up full width of their parent */
+  box-sizing: border-box;
+}
+
+.passwordError-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 10px; /* Small margin at the top */
+  margin-bottom: 10px; /* Margin at the bottom to avoid overlapping */
+  text-align: left; /* Align error message to the left */
+  width: 100%; /* Ensure error messages take up full width of their parent */
+  box-sizing: border-box;
+}

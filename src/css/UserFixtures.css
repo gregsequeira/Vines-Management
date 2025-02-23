@@ -1,0 +1,66 @@
+.user-fixtures-container {
+  width: 100%; /* Fluid width */
+  max-width: 1440px; /* Maximum width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+}
+
+.month-box {
+  margin-bottom: 20px; /* Gap between months */
+  padding: 20px;
+  background-color: #e0e0e0; /* Light grey background for each month */
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.user-fixtures-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.2em; /* Make month headings a bit smaller */
+  cursor: pointer; /* Make it clickable */
+}
+
+.month-heading .triangle {
+  font-size: 0.8em; /* Adjust triangle size */
+}
+
+.user-fixtures-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-fixtures-table th,
+.user-fixtures-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center the text in table cells */
+}
+
+.user-fixtures-table th {
+  background-color: #333; /* Black background */
+  color: #ffc107 !important; /* Yellow font color with !important to override */
+}
+
+.user-fixtures-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center the text in table cells */
+}
+
+.user-fixtures-table th,
+.user-fixtures-table td {
+  width: auto; /* Adjust the width to prevent wrapping */
+}
+
+.user-fixtures-table tr:nth-child(even) {
+  background-color: #707070; /* Darker grey */
+}
+
+.user-fixtures-table tr:nth-child(odd) {
+  background-color: #505050; /* Darker grey */
+}

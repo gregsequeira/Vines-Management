@@ -1,0 +1,69 @@
+.notice-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #fff; /* Background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notice-list-container h2 {
+  margin-bottom: 20px;
+  color: #333; /* Text color */
+  text-align: center;
+}
+
+.notice-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notice-list-container li {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f8f8f8; /* Item background color */
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.notice-list-container li h3 {
+  margin-top: 0;
+  color: #333; /* Text color */
+  text-align: center;
+}
+
+.notice-list-container li p {
+  color: #666; /* Text color */
+  text-align: center;
+}
+
+.notice-list-container li img,
+.notice-list-container li video {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notice-list-container li button {
+  background-color: #ffc93c;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.notice-list-container li button:hover {
+  background-color: #ffba36;
+}
+
+.notice-list-container p.no-notices {
+  text-align: center;
+  color: #999; /* Text color for "No notices available" message */
+}
