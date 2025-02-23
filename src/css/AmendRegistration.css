@@ -2,24 +2,24 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #121212; /* Dark background color close to black */
+  background-color: #121212;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: #ffffff; /* White font color */
+  color: #ffffff;
 }
 
 .amend-registration-container h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 24px;
-  color: #ffffff; /* White font color */
+  color: #ffffff;
 }
 
 .amend-registration-container h3 {
   margin-bottom: 15px;
   font-size: 20px;
-  color: #ffffff; /* White font color */
-  border-bottom: 2px solid #ffc107; /* Yellow line color */
+  color: #ffffff;
+  border-bottom: 2px solid #ffc107;
   padding-bottom: 5px;
 }
 
@@ -30,7 +30,7 @@
 .amend-registration-container p {
   margin: 5px 0;
   font-size: 16px;
-  color: #ffffff; /* White font color */
+  color: #ffffff;
 }
 
 .amend-registration-container input[type="checkbox"] {
@@ -65,7 +65,7 @@
   margin-top: 20px;
   font-size: 16px;
   color: #ffffff;
-  background-color: #ffc107; /* Yellow button color */
+  background-color: #ffc107;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -73,5 +73,5 @@
 }
 
 .amend-registration-container button:hover {
-  background-color: #e0a800; /* Darker yellow on hover */
+  background-color: #e0a800;
 }

@@ -1,16 +1,16 @@
 .admin-applications-container {
-  width: 100%; /* Fluid width */
-  max-width: 1440px; /* Maximum width */
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center the text */
+  text-align: center;
 }
 
 .admin-applications-container h2 {
-  margin-bottom: 10px; /* Reduced margin */
+  margin-bottom: 10px;
   color: #333;
 }
 
@@ -32,28 +32,28 @@
 .registrations-table td {
   border: 1px solid #ddd;
   padding: 8px;
-  text-align: center; /* Center the text in table cells */
+  text-align: center;
 }
 
 .applications-table th,
 .registrations-table th {
-  background-color: #333; /* Black background */
-  color: #ffc107 !important; /* Yellow font color with !important to override */
+  background-color: #333;
+  color: #ffc107 !important;
 }
 
 .applications-table td,
 .registrations-table td {
-  width: auto; /* Adjust the width to prevent wrapping */
+  width: auto;
 }
 
 .applications-table tr:nth-child(even),
 .registrations-table tr:nth-child(even) {
-  background-color: #b0b0b0; /* Darker grey */
+  background-color: #b0b0b0;
 }
 
 .applications-table tr:nth-child(odd),
 .registrations-table tr:nth-child(odd) {
-  background-color: #808080; /* Darker grey */
+  background-color: #808080;
 }
 
 button {
@@ -62,9 +62,9 @@ button {
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  color: black; /* Black text color */
-  background-color: #ffc93c; /* Yellow background color */
-  min-width: 70px; /* Ensure buttons have a minimum width */
+  color: black;
+  background-color: #ffc93c;
+  min-width: 70px;
 }
 
 button:hover {
@@ -77,14 +77,14 @@ button:active {
 
 .selected-application {
   border-top: 1px solid #ddd;
-  padding-top: 10px; /* Reduced padding */
-  background-color: #f8f9fa; /* Light grey background for the selected application */
+  padding-top: 10px;
+  background-color: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .selected-application p {
-  margin: 3px 0; /* Reduced margin between lines */
+  margin: 3px 0;
   color: #333;
 }
 
@@ -100,7 +100,7 @@ button:active {
 }
 
 .selected-application-content {
-  padding: 10px; /* Reduced padding */
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -109,14 +109,14 @@ button:active {
   margin-top: 10px;
   margin-right: 10px;
   padding: 10px;
-  background-color: #ffc93c; /* Yellow background color */
-  color: black; /* Black text color */
+  background-color: #ffc93c;
+  color: black;
   border: none;
   cursor: pointer;
 }
 
 .action-button:hover {
-  background-color: #e6b800; /* Slightly darker yellow */
+  background-color: #e6b800;
 }
 
 .selected-application-content p {
